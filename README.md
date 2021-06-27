@@ -9,3 +9,4 @@ Steps to run :
 4. run the mongo DB server
 5. type npm start within the bakery-app repo.
 6. open the browser and type localhost:7000
+# Bakery_app_react
