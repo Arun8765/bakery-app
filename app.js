@@ -16,7 +16,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/contact',(req,res)=>{
-    res.send('contacts')
+    res.sendFile(__dirname + '/public/contacts.html')
 })
 
 app.get('/about',(req,res)=>{

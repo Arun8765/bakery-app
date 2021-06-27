@@ -6,7 +6,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
-        <link rel="stylesheet" href= "front-end.css">   
+        <link rel="stylesheet" href= "front-end.css">    
+        
         <style>
             *, *:before, *:after {
   box-sizing: inherit;
@@ -24,14 +25,7 @@
   background-color: #ffecd0;
 }
 
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-  width: 75% ;
-  margin: auto;
-}
+
 
 .container {
   padding: 0 16px;
@@ -66,7 +60,9 @@
 .cinfo{
   color: rgb(71, 13, 13)
 }
-
+.row{
+    margin: auto;
+}
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -74,7 +70,7 @@
   }
 }
 
-        </style>    
+        </style>   
     </head>
     <body>
         <header>
@@ -89,13 +85,35 @@
         </nav>
         </header>
         
-        <div class="about-section">
-            <h1>About Us</h1>
-            <p>Leaders in exquisite Fresh baked goods</p>
-            <p>Our bakery is the largest network in providing freshly baked 5 star pasteries for delivery across the country</p>
-            <p>The Ordering procedure is fairly simple and user friendly.</p>
+        <h2 style="text-align:center">Our Team</h2>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="default_profile.jpg" alt="Ashik" style="width:100%">
+              <div class="container">
+                <h2>Ashik M P</h2>
+                <p class="title">Designer and Developer</p>
+                <p><b>USN: 1MS18CS030</b></p>
+                <h4 class="cinfo">Contact info:</h4>
+                <p>e-mail: ashik2001mp@gmail.com</p>
+                <p>Phone No: 9164177130</p>
+              </div>
+            </div>
           </div>
-          
-
+        
+          <div class="column">
+            <div class="card">
+              <img src="WhatsApp Image 2021-06-25 at 14.05.35.jpeg" alt="Arun" style="width:100%;">
+              <div class="container">
+                <h2>Arun J K</h2>
+                <p class="title">Designer and Developer</p>
+                <p><b>USN: 1MS18CS029</b></p>
+                <h4 class="cinfo">Contact info:</h4>
+                <p>e-mail: arunkennedy78@gmail.com</p>  
+                <p>Phone No: 7019634663</p>     
+              </div>
+            </div>
+          </div>
+        </div>
     </body>
 </html>
